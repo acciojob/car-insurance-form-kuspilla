@@ -16,10 +16,11 @@
 
 <form method="post">
 	<label for = "name">Name:</label>
-	<input type = "text" id = name placeholder="Name" required><br><br>
+	<input type = "text" id = "name" placeholder="Name" required><br><br>
 
-	<label for = "email">Email:</label>
-	<input type = "email" id = email placeholder="Email" required> <br> <br>
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
 
 	<label >Gender:</label><br>
 	<label for = "male">Male</label>
@@ -43,12 +44,13 @@
 	<input type = "number" id = "age" placeholder="Age" required> <br><br>
 
 	<label for="dop">Date of Purchase:</label>
-	<input type = "date" name = "dop" id ="dop"><br><br>
+	<input type = "date" name = "dop" id ="dop" required><br><br>
 
-	<label for ="pass">Password:</label>
-    <input type = "password" id = "pass" name = "pass" placeholder="Password"> <br> <br>
+	<label for="password">Password:</label>
+	<input type="password" id="password" name="password" placeholder="Password" required><br><br>
 
-	<input type = "submit" name = "submit">
+
+	<button type="submit" > submit</button>
 
 </form>
 
